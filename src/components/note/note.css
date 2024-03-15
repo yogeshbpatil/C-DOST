@@ -6,9 +6,11 @@
     height: 10rem;
     border-radius: 0.5rem;
     background-color: rgb(240, 226, 207);
+    margin: 1rem;
 }
 .high{
     background-color: rgb(230, 56, 56);
+    color: white;
 }
 .medium{
  background-color: rgb(197, 112, 33) ;
