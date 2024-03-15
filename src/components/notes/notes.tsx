@@ -6,5 +6,5 @@ type NoreProps = {
 function Note(props: NoreProps) {
   return <div className={`note ${props.priority}`}>{props.text}</div>;
 }
-
+//DFDSF
 export default Note;
