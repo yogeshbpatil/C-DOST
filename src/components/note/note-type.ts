@@ -1,5 +1,12 @@
+export type Priority = "high" | "medium" | "low";
 export type NoteProps = {
-    id?: number;
     text: string;
-    priority?: "high" | "medium" | "low";
+    priority? :Priority;
   };
+
+  export type NoteType = {
+    id: string;
+    text: string;
+    priority?: Priority
+  };
+  // time 11.10 or restart
